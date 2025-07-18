@@ -12,9 +12,11 @@ Create a configuration file that suits your need. I use this [custom config file
 
 ## Useful commands
 
-| Check what | Formatting | Output destination |
-|------------|------------|------------|
-| One article |  |  |   |
+| Command | Check what | Formatting | Output destination |
+|------------|------------|------------|------------|
+| `asd` | One article | Default |  Console  |
+| `asd` | One article | CSV |  Console  |
+| `asd` | One article | CSV |  Local file  |
 
 
 Check all links on page.html, format the output as CSV, and collect the output in a local file.
@@ -31,10 +33,7 @@ Check all links on the docs website and show results on the console.
 
 ## More commands
 
-Check all links in *a few* help articles and collect the output in a local file.
+Use cases:
 
-`npx linkinator https://docs.kore.ai/ --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
-
-Throttle link checking to avoid hammering the docs server.
-
-``
+* Check all links in *a few* help articles and collect the output in a local file.
+* Throttle link checking to avoid hammering the docs server.
