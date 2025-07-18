@@ -1,4 +1,6 @@
-# Useful commands
+# How to use 
+
+## Useful commands
 
 Check all links on page.html, format the output as CSV, and dump the output in the destination file.
 
