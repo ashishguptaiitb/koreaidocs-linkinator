@@ -1,0 +1,1 @@
+# koreaidocs-linkinator
