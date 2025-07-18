@@ -8,12 +8,14 @@ Use the npm command in a PowerShell.
 
 ## How to configure
 
-Create a configuration file that suits your need. I use the file at .
+Create a configuration file that suits your need. I use this [custom config file](linkinator.config.json).
 
 ## Useful commands
 
-| Check what | 
-|------------|
+| Check what | Formatting | Output destination |
+|------------|------------|------------|
+| One article |  |  |   |
+
 
 Check all links on page.html, format the output as CSV, and collect the output in a local file.
 

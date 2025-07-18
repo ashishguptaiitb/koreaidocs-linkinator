@@ -1,8 +1,8 @@
 {
-  "concurrency": 100,
+  "concurrency": 50,
   "config": "string",
   "recurse": true,
-  "skip": "www.googleapis.com",
+  "skip": "www.googleapis.com", "www.support.kore.ai"
   "format": "json",
   "silent": true,
   "verbosity": "error",
