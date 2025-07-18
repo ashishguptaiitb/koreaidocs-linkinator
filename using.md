@@ -4,11 +4,11 @@
 
 ## How to install
 
+Use the npm command in a PowerShell.
 
+## How to configure
 
-## How to use 
-
-
+Create a configuration file that suits your need. I use the file at .
 
 ## Useful commands
 
@@ -19,13 +19,20 @@ Check all links on page.html, format the output as CSV, and collect the output i
 
 `npx linkinator https://docs.kore.ai/ --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
 
-Check all links in a few help articles and collect the output in a local file.
-
-
-Check all links on the docs website and show results on the console.
+❗Check all links on the docs website and show results on the console. Don't use this option as it is not possible to process thousands of rows of results on a console.
 
 `npx linkinator https://docs.kore.ai/ --recurse`
 
 Check all links on the docs website and show results on the console.
 
 `npx linkinator https://docs.kore.ai/ --recurse`
+
+## More commands
+
+Check all links in *a few* help articles and collect the output in a local file.
+
+`npx linkinator https://docs.kore.ai/ --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
+
+Throttle link checking to avoid hammering the docs server.
+
+``
