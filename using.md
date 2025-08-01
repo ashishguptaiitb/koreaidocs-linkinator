@@ -6,6 +6,8 @@
 
 Use the npm command in a PowerShell.
 
+`npm install linkinator`
+
 ## How to configure
 
 Create a configuration file that suits your need. I use this [custom config file](linkinator.config.json).
