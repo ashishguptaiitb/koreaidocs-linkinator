@@ -10,7 +10,9 @@ Use the npm command in a PowerShell.
 
 ## How to configure
 
-Create a configuration file that suits your need. I use this [custom config file](linkinator.config.json).
+Create a configuration file that suits your needs. I use this [custom config file](linkinator.config.json).
+
+The tool looks for `linkinator.config.json` by default, so you may retain this default name for your config file as well. If you choose to have a different file name then use the `config` parameter to provide the path of your config file.
 
 ## Useful commands
 
