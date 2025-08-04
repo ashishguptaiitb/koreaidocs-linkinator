@@ -2,7 +2,7 @@
 
 [Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command line link checker. We use it to periodically check the link health of entire entire doc site on [docs.kore.ai](https://docs.kore.ai).
 
-## How to install
+## How to install the tool
 
 Use the npm command in a PowerShell.
 
