@@ -4,11 +4,11 @@ This repository contains linkinator information for Kore.ai docs check, includin
 
 # Linkinator for docs
 
-[Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command line link checker. We use it to periodically check the link health of entire entire doc site on [docs.kore.ai](https://docs.kore.ai).
+[Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command-line link checker. We use it to periodically check the link health of entire entire doc site on [docs.kore.ai](https://docs.kore.ai).
 
 ## How to install
 
-Use the npm command in a PowerShell.
+Use the npm command in PowerShell.
 
 `npm install linkinator`
 
@@ -16,7 +16,7 @@ Use the npm command in a PowerShell.
 
 Create a configuration file that suits your needs. I use this [custom config file](linkinator.config.json).
 
-The tool looks for `linkinator.config.json` by default, so you may retain this default name for your config file as well. If you choose to have a different file name then use the `config` parameter to provide the path of your config file.
+The tool looks for `linkinator.config.json` by default, so you may keep that name for your config file as well. If you choose to have a different file name, then use the `config` parameter to provide the path of your config file.
 
 ## Useful commands
 
@@ -27,7 +27,7 @@ The tool looks for `linkinator.config.json` by default, so you may retain this d
 | `asd` | One article | CSV |  Local file  |
 
 
-Check all links on page.html, format the output as CSV, and collect the output in a local file.
+Check all links on page.html, format the output as CSV, and save it to a local file.
 
 `npx linkinator https://docs.kore.ai/ --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
 
@@ -43,11 +43,12 @@ Check all links on the docs website and show results on the console.
 
 Use cases:
 
-* Check all links in *a few* help articles and collect the output in a local file.
-* Throttle link checking to avoid hammering the docs server.
+* Check all links in *a few* help articles and collect the output in a local file. Supply a list of articles via a .txt file.
+* Check all links in all files in a folder. Supply the folder path on the command line or run it in the folder itself.
+* Throttle link checking to avoid hammering the docs server. Supply time delay between two link checks or number of pings to make per minute.
 
 
-
+<br />
 Credits to,
 
 * [Justin Beckwith](https://github.com/JustinBeckwith)
