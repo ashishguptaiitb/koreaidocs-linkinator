@@ -4,7 +4,7 @@ This repository contains linkinator information for Kore.ai docs check, includin
 
 # Linkinator for docs
 
-[Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command-line link checker. We use it to periodically check the link health of entire entire doc site on [docs.kore.ai](https://docs.kore.ai).
+[Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command-line link checker. We use it to periodically check the link health of entire doc site on [docs.kore.ai](https://docs.kore.ai).
 
 ## How to install
 
