@@ -27,6 +27,10 @@ The tool looks for `linkinator.config.json` by default, so you may keep that nam
 | `asd` | One article | CSV |  Local file  |
 
 
+Check all html pages in a folder, format the output as CSV, and save it to a local file.
+
+`npx linkinator "**/*.html" --html --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
+
 Check all links on page.html, format the output as CSV, and save it to a local file.
 
 `npx linkinator https://docs.kore.ai/ --format CSV > C:\Users\Ashish.Gupta\Desktop\linkchk.txt`
