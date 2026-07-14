@@ -1,8 +1,9 @@
-# linkinator configuration and other files
+---
+title: Linkinator for docs
+description: Linkinator link checking info and config for Kore.ai docs
+---
 
 This repository contains linkinator information for Kore.ai docs check, including but not limited to the config file.
-
-# Linkinator for docs
 
 [Linkinator](https://github.com/JustinBeckwith/linkinator/blob/main/README.md) is a command-line link checker. We use it to periodically check the link health of entire doc site on [docs.kore.ai](https://docs.kore.ai).
 
