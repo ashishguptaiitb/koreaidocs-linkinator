@@ -52,6 +52,11 @@ Use cases:
 * Check all links in all files in a folder. Supply the folder path on the command line or run it in the folder itself.
 * Throttle link checking to avoid hammering the docs server. Supply time delay between two link checks or number of pings to make per minute.
 
+linkinator https://docs.kore.ai/agent-platform/ --recurse --skip "^https://docs\.kore\.ai/(?!agent-platform/).*" --format csv --verbosity error
+
+linkinator urls.txt --config linkinator.config.json >  C:\Users\Ashish.Gupta\Desktop\linkchk-ap.csv
+
+---
 
 <br />
 Credits to,
